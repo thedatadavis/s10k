@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Slender Stack Development',
+			title: 'Slender Stack',
 			social: {
 				github: 'https://github.com/thedatadavis/s10k',
 				linkedin: 'https://linkedin.com/in/thedatadavis'
