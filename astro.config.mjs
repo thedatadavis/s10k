@@ -8,6 +8,7 @@ export default defineConfig({
 			title: 'Slender Stack Development',
 			social: {
 				github: 'https://github.com/thedatadavis/s10k',
+				linkedin: 'https://linkedin.com/in/thedatadavis'
 			},
 			sidebar: [
 				{
