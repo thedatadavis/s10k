@@ -5,21 +5,46 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Slender Stack Development',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/thedatadavis/s10k',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Intro',
+					autogenerate: { directory: 'intro' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Start Small',
+					autogenerate: { directory: 'small' },
+				},
+				{
+					label: 'Use Leverage',
+					autogenerate: { directory: 'leveraged' },
+				},
+				{
+					label: 'Model Your Unit Economics',
+					autogenerate: { directory: 'economical' },
+				},
+				{
+					label: 'Niche Down',
+					autogenerate: { directory: 'niche' },
+				},
+				{
+					label: 'De-risk, De-risk, De-risk',
+					autogenerate: { directory: 'derisked' },
+				},
+				{
+					label: 'Efficiency is Key',
+					autogenerate: { directory: 'effiencient' },
+				},
+				{
+					label: 'Make it Repeatable',
+					autogenerate: { directory: 'repeatable' },
+				},
+				{
+					label: 'Resources',
+					autogenerate: { directory: 'resources' },
 				},
 			],
 		}),
