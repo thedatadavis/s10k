@@ -28,8 +28,8 @@ export default defineConfig({
 					autogenerate: { directory: 'economical' },
 				},
 				{
-					label: 'Niche Down',
-					autogenerate: { directory: 'niche' },
+					label: 'Narrow Scope',
+					autogenerate: { directory: 'narrow' },
 				},
 				{
 					label: 'De-risk, De-risk, De-risk',
